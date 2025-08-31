@@ -1,6 +1,7 @@
 # Primera practica Creacion de una API en Flask de python
 #Importamos flask, metodo jsonify para convertir a json, request para traer datos del json y math para sqrt
-from flask import Flask, jsonify, request, math
+import math
+from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
